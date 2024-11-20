@@ -1,0 +1,82 @@
+---
+title: "Distributed Logging System"
+publishedAt: "2024-11-17"
+summary: "Real Time Distributed Logging System : A Practical Approach to Microservices Monitoring"
+images:
+  - "/images/projects/project-01/cover-01.jpg"
+team:
+  - name: "Bhavesh Budharaju"
+    role: "Student"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://www.linkedin.com/in/bhavesh-budharaju/"
+  - name: "Dhanush SJ"
+    role: "Student"
+    avatar: ""
+    linkedIn: "https://www.linkedin.com/in/dhanush-j-045a57288/"
+---
+
+# Distributed Logging Architecture: A Practical Approach to Microservices Monitoring
+
+In today's distributed systems landscape, effective logging and monitoring are crucial for maintaining system health and troubleshooting issues. Let's explore a robust logging architecture that handles multiple microservices while providing both centralized logging and real-time alerting capabilities.
+
+## Architecture Overview
+
+The system comprises three main microservices, each running on separate machines, implementing a distributed logging solution that ensures comprehensive monitoring and quick incident response.
+
+### Key Components
+
+1. **Data Collection Layer**
+   - Three microservices, each with a dedicated Fluentd instance
+   - Fluentd acts as a log collector and Kafka producer
+   - Distributed across different machines for improved reliability
+
+2. **Message Streaming Layer (Kafka)**
+   Three distinct topics handle different types of logs:
+   - Service_logs: Regular INFO level logs for normal operations
+   - Health_logs: Heartbeat messages for system health monitoring
+   - Alert_logs: Critical events (WARN, ERROR, FATAL) and node status changes
+
+3. **Consumer Layer**
+   Two specialized consumers handle different aspects:
+   - Consumer 1: Comprehensive log storage (Elasticsearch + Kibana)
+   - Consumer 2: Dedicated alerting system for quick incident response
+
+## Benefits of This Architecture
+
+1. **Separation of Concerns**
+   - Each microservice handles its own logging locally
+   - Clear separation between regular logging and critical alerts
+   - Dedicated alerting system for faster incident response
+
+2. **Scalability**
+   - Distributed Fluentd instances prevent single point of failure
+   - Kafka provides reliable message buffering and delivery
+   - Multiple consumers can be added without affecting producers
+
+3. **Observability**
+   - Centralized logging with Elasticsearch and Kibana
+   - Real-time monitoring of system health
+   - Quick access to both historical data and current system status
+
+## Best Practices Implemented
+
+1. **Log Segregation**
+   - Different topics for different log levels
+   - Clear separation between service logs and system health
+   - Dedicated alert channel for critical events
+
+2. **Redundancy**
+   - Local log collection before forwarding
+   - Multiple consumers for different use cases
+   - Distributed components across multiple machines
+
+3. **Monitoring**
+   - Real-time health checking through heartbeat messages
+   - Comprehensive visualization through Kibana
+   - Dedicated alerting system for critical events
+
+## Conclusion
+
+This architecture provides a robust foundation for handling logs in a distributed microservices environment. By separating concerns and implementing proper redundancy, it ensures both comprehensive logging and quick incident response capabilities.
+
+The combination of Fluentd, Kafka, and Elasticsearch creates a reliable pipeline that can scale with your system while providing the necessary tools for both debugging and monitoring. The dedicated alerting system ensures that critical issues are caught and addressed promptly, making this architecture suitable for production environments where reliability and observability are crucial.

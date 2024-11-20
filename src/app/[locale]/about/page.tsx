@@ -252,14 +252,20 @@ export default function About(
                                         <Flex
                                             as="ul"
                                             direction="column" gap="16">
-                                            {experience.achievements.map((achievement: string, index: any) => (
-                                                <Text
-                                                    as="li"
-                                                    variant="body-default-m"
-                                                    key={`${experience.company}-${index}`}>
-                                                    {achievement}
-                                                </Text>
-                                            ))}
+                                           {experience.achievements.map((achievement, index) => {
+                                                if (typeof achievement === "string") {
+                                                    return (
+                                                        <Text
+                                                            as="li"
+                                                            variant="body-default-m"
+                                                            key={`${experience.company}-${index}`}>
+                                                            {achievement}
+                                                        </Text>
+                                                    );
+                                                }
+                                                return null; // Handle non-string cases, if necessary
+                                            })}
+
                                         </Flex>
                                         {experience.images.length > 0 && (
                                             <Flex

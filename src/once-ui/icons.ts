@@ -25,14 +25,16 @@ import {
 	PiUserCircleDuotone,
 	PiGridFourDuotone,
 	PiBookBookmarkDuotone,
-	PiImageDuotone
+	PiImageDuotone,
+	PiDownloadSimpleBold
 } from "react-icons/pi";
 
 import {
 	FaDiscord,
 	FaGithub,
 	FaLinkedin,
-	FaXTwitter
+	FaXTwitter,
+	FaInstagram,
 } from "react-icons/fa6";
 
 export const iconLibrary: Record<string, IconType> = {
@@ -62,4 +64,6 @@ export const iconLibrary: Record<string, IconType> = {
 	github: FaGithub,
 	linkedin: FaLinkedin,
 	x: FaXTwitter,
+	instagram: FaInstagram,
+	download: PiDownloadSimpleBold
 };
