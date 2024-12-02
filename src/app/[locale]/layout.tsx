@@ -109,6 +109,9 @@ export default async function RootLayout({
 					as="body"
 					fillWidth margin="0" padding="0"
 					direction="column">
+					<head>
+						<script defer src="https://cloud.umami.is/script.js" data-website-id="224cd921-2cfc-46a1-9457-85f925ced80e"></script>
+					</head>
 					<Background
 						mask={effects.mask as any}
 						gradient={effects.gradient as any}
