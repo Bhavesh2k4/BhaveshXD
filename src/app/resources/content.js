@@ -44,7 +44,7 @@ const social = [
     {
         name: 'CV/Resume',
         icon: 'download',
-        link: '#',
+        link: 'https://drive.google.com/file/d/1pPVjGQ21k3paKFxlQW4QTN2OZ1DATYI7/view?usp=drive_link',
     }
 ]
 
