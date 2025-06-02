@@ -45,7 +45,7 @@ const createI18nContent = (t) => {
         {
             name: 'CV/Resume',
             icon: 'download',
-            link: '#',
+            link: 'https://drive.google.com/file/d/11koGdPN8_VPOUbJmh8NjoycgZ9udCnZX/view?usp=sharing',
         }
     ]
     

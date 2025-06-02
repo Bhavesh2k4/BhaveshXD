@@ -1,0 +1,104 @@
+---
+title: "Serverless Function Execution Platform"
+publishedAt: "2025-02-15"
+summary: "A complete serverless compute platform with Docker and Nanos unikernel execution engines, featuring secure authentication and AWS S3 integration"
+images:
+  - "/images/projects/project-01/cover-03.jpg"
+team:
+  - name: "Bhavesh Budharaju"
+    role: "Full Stack Developer"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://www.linkedin.com/in/bhavesh-budharaju/"
+---
+
+# Serverless Function Execution Platform
+
+[GitHub Repository](https://github.com/Bhavesh2k4/Lambda_Serverless)
+
+A comprehensive serverless compute platform that eliminates infrastructure management complexity while providing powerful function execution capabilities. This project demonstrates the implementation of a production-ready serverless platform using modern web technologies and multiple execution engines.
+
+## What This Project Does
+
+This platform allows developers to upload and execute code functions without managing any server infrastructure. Think of it as your own mini AWS Lambda service - users can simply upload Python or JavaScript code, and the platform handles everything from storage to execution.
+
+### Core Functionality
+
+**Function Upload & Management**
+- Upload Python or JavaScript functions through a web interface
+- Functions are securely stored in AWS S3 cloud storage
+- Function metadata (name, language, settings) stored in PostgreSQL database
+- Clean dashboard to view and manage all your functions
+
+**Two Execution Modes**
+- **Docker Containers**: Traditional containerization for reliable, isolated execution
+- **Nanos Unikernels**: Ultra-lightweight virtual machines for faster startup and better performance
+- Both modes accessible through simple HTTP API calls
+
+**User Authentication**
+- Secure user accounts with email/password registration
+- OAuth login with Google and GitHub
+- Email verification and password reset functionality
+- Each user has their own isolated function space
+
+## How It Works
+
+1. **Sign Up**: Create an account using email or OAuth providers
+2. **Upload Code**: Write your function in Python or JavaScript and upload it
+3. **Configure**: Set memory limits, timeout values, and other execution parameters
+4. **Execute**: Call your function via HTTP with parameters
+5. **Monitor**: View execution results, performance metrics, and error logs
+
+### Example Usage
+
+Once you upload a function, you can call it like this:
+```
+GET /api/function/your-user-id/calculator/docker?a=5&b=10
+GET /api/function/your-user-id/calculator/nanos?a=5&b=10
+```
+
+The platform executes your code and returns the results instantly.
+
+## Technical Implementation
+
+**Frontend**: Built with Next.js and TypeScript for a responsive web interface
+
+**Backend**: Node.js API handling authentication, file management, and function execution
+
+**Database**: PostgreSQL with Prisma ORM for storing user data and function metadata
+
+**Storage**: AWS S3 for secure, scalable function code storage
+
+**Execution**: Custom-built execution engines using Docker and Nanos technologies
+
+**Security**: Multi-layer authentication with NextAuth and secure function isolation
+
+## Why This Matters
+
+This project solves real problems in modern software development:
+
+- **No Infrastructure Hassle**: Developers can focus on writing code, not managing servers
+- **Cost Effective**: Only pay for execution time, not idle server costs
+- **Scalable**: Platform handles multiple users and concurrent function executions
+- **Educational**: Perfect for learning serverless architecture and cloud technologies
+- **Performance Comparison**: Unique dual-engine approach to compare containerization vs unikernels
+
+## Key Learning Outcomes
+
+Building this platform provided hands-on experience with:
+- Serverless architecture design and implementation
+- Cloud storage integration (AWS S3)
+- Container orchestration and virtualization technologies
+- Modern web development with Next.js and TypeScript
+- Database design and management with PostgreSQL
+- Authentication and security best practices
+- RESTful API design and implementation
+
+## Real-World Applications
+
+This platform could be used for:
+- **Development Teams**: Quick prototyping and testing of serverless functions
+- **Educational Institutions**: Teaching cloud computing and serverless concepts
+- **Small Businesses**: Cost-effective way to run backend logic without server maintenance
+- **Research Projects**: Comparing different execution environments and performance characteristics
+
+The project demonstrates practical knowledge of distributed systems, cloud architecture, and modern development practices.

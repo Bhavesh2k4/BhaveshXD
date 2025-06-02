@@ -44,7 +44,7 @@ const social = [
     {
         name: 'CV/Resume',
         icon: 'download',
-        link: 'https://drive.google.com/file/d/1pPVjGQ21k3paKFxlQW4QTN2OZ1DATYI7/view?usp=drive_link',
+        link: 'https://drive.google.com/file/d/11koGdPN8_VPOUbJmh8NjoycgZ9udCnZX/view?usp=sharing',
     }
 ]
 
@@ -54,7 +54,7 @@ const home = {
     description: `Portfolio website`,
     headline: <>Web Dev & Distributed Systems Enthusiast</>,
     subline: <>I'm <InlineCode>Bhavesh</InlineCode>, a computer science & Tech enthusiast exploring the digital universe from the tech hub of <InlineCode>Bangalore 🚀</InlineCode> .<br/>
-For me, programming isn't just a career path – it's where logic meets creativity.</>
+For me, programming isn't just a career path - it's where logic meets creativity.</>
 }
 
 const about = {
@@ -127,7 +127,7 @@ const about = {
         institutions: [
             {
                 name: 'PES University',
-                description: <><br/>Pursuing Computer Science and Engineering. <span className="ml-80"><InlineCode>2022-2026</InlineCode><InlineCode>CGPA: 8.94</InlineCode></span><br/>
+                description: <><br/>Pursuing Computer Science and Engineering. <span className="ml-80"><InlineCode>2022-2026</InlineCode><InlineCode>CGPA: 9.05</InlineCode></span><br/>
                 🏆 Secured MRD and CNR Awards (Top 5% and 20% of students in Academics in University)</>,
             },
             {

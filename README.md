@@ -1,6 +1,8 @@
-# **Build your portfolio with Once UI's Magic Portfolio**
+# **Bhavesh Budharaju's Portfolio**
 
-Magic Portfolio was built with [Once UI](https://once-ui.com) for [Next.js](https://nextjs.org). It requires Node.js v18.17+.
+This is my portfolio website built with [Once UI](https://once-ui.com) for [Next.js](https://nextjs.org). It requires Node.js v18.17+.
+
+## **🚀 Quick Start**
 
 **1. Clone the repository**
 ```
@@ -24,7 +26,7 @@ src/app/resources/config
 
 **5. Edit content**
 ```
-src/app/resources/content (or content-i18n for localization)
+src/app/resources/content (or content-i18n for localization) 
 ```
 
 **6. Create blog posts / projects**
@@ -32,51 +34,37 @@ src/app/resources/content (or content-i18n for localization)
 Add a new .mdx file to src/app/[locale]/blog/posts or src/app/[locale]/work/projects
 ```
 
-# **Features**
+## **👨‍💻 About Me**
 
-## **Once UI**
-- All tokens, components & features of [Once UI](https://once-ui.com)
+**I'm Bhavesh Budharaju**  
+I'm a Distributed Systems, Databases and AI Enthusiast.
 
-## **SEO**
-- Automatic open-graph and X image generation with next/og
-- Automatic schema and metadata generation based on the content file
+* 🌱 Currently pursuing my BTech in Computer Science at PES University, Bengaluru.
+* 💻 I'm on a mission to become a Software Engineer, leveraging cutting-edge technologies to create impactful solutions.
+* 🚀 Always eager to explore new horizons in technology.
+* 👯 I'm looking to collaborate on projects involving:
+   * **AI / ML**: 🤖 Machine learning models, deep learning, and AI-powered applications.
+   * **Cloud Computing**: ☁️ Serverless, containerization, and cloud-native architectures.
+   * **Big Data and Databases**: Distributed Computing and Storage.
 
-## **Design**
-- Responsive layout optimized for all screen sizes
-- Timeless design without heavy animations and motion
-- Endless customization options through [data attributes](https://once-ui.com/docs/theming)
+## **📈 Activity Graph: A Visual History**
 
-## **Content**
-- Render sections conditionally based on the content file
-- Enable or disable pages for blog, work, gallery and about / CV
-- Generate and display social links automatically
-- Set up password protection for URLs
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=bhavesh2k4&theme=react-dark&hide_border=true&area=true)
 
-## **Localization (NEW)**
-- Magic Portfolio now supports localization with the next-intl library
-- See more info in resources/config.js
+## **📫 Connect With Me: Let's Collaborate!**
 
-# **Authors**
+I'm always open to collaboration and new opportunities. Feel free to reach out to me:
 
-Connect with us on Threads or LinkedIn.
+* 📧 Email: Bhavesh.oct2k4@gmail.com
+* 🔗 LinkedIn: [linkedin.com/in/bhavesh-budharaju](https://linkedin.com/in/bhavesh-budharaju)
+* 🌐 Personal Website: [portfolio](https://your-portfolio-url.com)
 
-Lorant Toth: [Threads](https://www.threads.net/@lorant.one), [LinkedIn](https://www.linkedin.com/in/tothlorant/)  
-Zsofia Komaromi: [Threads](https://www.threads.net/@zsofia_kom), [LinkedIn](https://www.linkedin.com/in/zsofiakomaromi/)
+Let's connect and build something amazing together! 🚀
 
-Localization added by [François Hernandez](https://github.com/francoishernandez)
+## **🎯 Fun Fact**
 
-# **Get involved**
+💡 "Code is like humor. When you have to explain it, it's bad." 😆 ... But hopefully, my README is self-explanatory! 😉
 
-- Join the [Design Engineers Club on Discord](https://discord.com/invite/5EyAQ4eNdS) and share your portfolio with us!
-- Report a [bug](https://github.com/once-ui-system/magic-portfolio/issues/new?labels=bug&template=bug_report.md).
+---
 
-# **License**
-
-Distributed under the CC BY-NC 4.0 License.
-- Commercial usage is not allowed.
-- Attribution is required.
-
-See `LICENSE.txt` for more information.
-
-# **Deploy with Vercel**
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fmagic-portfolio&project-name=portfolio&repository-name=portfolio&redirect-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fmagic-portfolio&demo-title=Magic%20Portfolio&demo-description=Showcase%20your%20designers%20or%20developer%20portfolio&demo-url=https%3A%2F%2Fdemo.magic-portfolio.com&demo-image=https%3A%2F%2Fonce-ui.com%2Fimages%2Ftemplates%2Fmagic-portfolio%2Fcover.jpg)
+*Built with ❤️ using Once UI's Magic Portfolio*
