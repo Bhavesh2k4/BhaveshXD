@@ -6,7 +6,7 @@ This is my portfolio website built with [Once UI](https://once-ui.com) for [Next
 
 **1. Clone the repository**
 ```
-git clone https://github.com/once-ui-system/magic-portfolio.git
+git clone https://github.com/Bhavesh2k4/BhaveshXD
 ```
 
 **2. Install dependencies**
