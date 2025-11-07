@@ -57,7 +57,7 @@ I'm always open to collaboration and new opportunities. Feel free to reach out t
 
 * 📧 Email: Bhavesh.oct2k4@gmail.com
 * 🔗 LinkedIn: [linkedin.com/in/bhavesh-budharaju](https://linkedin.com/in/bhavesh-budharaju)
-* 🌐 Personal Website: [portfolio](https://your-portfolio-url.com)
+* 🌐 Personal Website: [portfolio](https://bhavesh-budharaju.in)
 
 Let's connect and build something amazing together! 🚀
 
